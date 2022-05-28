@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Contact Me</title>
+    </head>
+    <body>
+        <h1>My Contact Details</h1>
+        <p><strong>Name: </strong><em>Cody O'Brien</em></p>
+        <p><strong>Number: </strong><em>801-603-4540</em></p>
+        <p><strong>Email: </strong><em>o_briencody@yahoo.com</em></p>
+
+        <hr>
+
+        <form action="mailto:o_briencody@yahoo.com" method="post" enctype="text/plain">
+            <div>
+                <label for="Name">Name:</label>
+                <input type="text" name="Name" id="Name">
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email"> 
+            </div>
+            <div>
+                <label for="Message">Your message:</label><br>
+                <textarea name="Message" id="Message" cols="30" rows="10" placeholder="Your message:"></textarea>
+            </div>
+            <div>
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </body>
+</html>
